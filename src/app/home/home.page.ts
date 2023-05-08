@@ -7,6 +7,7 @@ import { ToastService } from 'src/Services/toast.service';
 import { LoadingService } from 'src/Services/loading.service';
 import { CommonModule } from '@angular/common';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -60,6 +61,7 @@ export class HomePage {
     this.newPersona.nombre="";
     this.newPersona.apellido="";
     }
+   
   }
 
 

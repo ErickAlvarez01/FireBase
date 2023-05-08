@@ -13,15 +13,20 @@
     </ion-toolbar>
   </ion-header>
 
+  
+<div class="image">
+  <img src="/assets/imagenes/pollito.jpg" alt="" height="300" width="300">
+</div>
+
 <ion-list class="list-formulario">
   <ion-item>
-    <ion-input type="text" placeholder="Cedula" [(ngModel)]="newPersona.cedula"></ion-input>
+    <ion-input type="text" placeholder="Precio" [(ngModel)]="newPersona.cedula"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-input type="text" placeholder="Nombre" [(ngModel)]="newPersona.nombre"></ion-input>
+    <ion-input type="text" placeholder="Comida" [(ngModel)]="newPersona.nombre"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-input type="text" placeholder="Apellido" [(ngModel)]="newPersona.apellido"></ion-input>
+    <ion-input type="text" placeholder="Calificacion 1-5" [(ngModel)]="newPersona.apellido"></ion-input>
   </ion-item>
   </ion-list>
 <ion-list>
@@ -40,3 +45,5 @@
 </ion-fab-button>
 </ion-fab>
 </ion-content>
+
+

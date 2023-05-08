@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { Component, NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouteReuseStrategy } from '@angular/router';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { IonicRatingModule } from 'ionic-rating';
+
 
 @Component({
   selector: 'app-root',
@@ -11,3 +15,5 @@ import { IonicModule } from '@ionic/angular';
 export class AppComponent {
   constructor() {}
 }
+
+export class AppModule {}
